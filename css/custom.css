@@ -63,3 +63,7 @@
   display: -ms-flexbox;
   display:         flex;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color:#337ab7
+}
