@@ -67,3 +67,208 @@
 .navbar-default .navbar-nav>li>a {
   color:#337ab7
 }
+
+.info-box {
+    display: inline-block;
+    width: 220px;
+    border: 1px solid;
+    padding: 10px;
+    height: 110px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.info-center {
+  width: 750px;
+      margin: 0 auto;
+}
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 50px;
+    margin-bottom: 100px;
+    line-height: 1.5;
+}
+.mt22 {
+  margin-top: 22px;
+}
+.intro-message {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+.mod-p p {
+  font-size: 16px;
+      font-weight: 400;
+      color: #505050;
+      line-height: 1.5;
+}
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+.spacethis {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*gallery css =================*/
+
+.thumb_gallery {
+width: 100%;
+  cursor: pointer;
+}
+
+.thumb_gallery:hover { opacity: 0.8; }
+
+#background_overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, 0.9);
+  z-index: 999;
+  overflow: auto;
+}
+
+.container_img {
+  position: relative;
+  max-width: 1000px;
+  max-height: 600px;
+  margin: 2% auto;
+  animation-name: zoom_image;
+  animation-duration: 0.4s;
+}
+
+.con-ac-ar {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+}
+
+.closebtn {
+  text-align: right;
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.activePopUpImg {
+  width: 1000px;
+  height: 600px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.previousImage, .nextImage {
+  color: #fff;
+  font-size: 2.5em;
+  cursor: pointer;
+  opacity: 0;
+  width: 80px;
+  text-align: center;
+}
+
+.previousImage {
+  position: absolute;
+  line-height: 600px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.nextImage {
+  position: absolute;
+  line-height: 600px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.previousImage:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.nextImage:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+ @keyframes 
+zoom_image {  from {
+transform: scale(0.5)
+}
+
+to { transform: scale(1) }
+}
+ @media screen and (min-width: 650px) and (max-width: 1100px) {
+
+.container_img {
+  width: 100%;
+  height: 500px;
+}
+
+.con-ac-ar {
+  width: 100%;
+  height: 500px;
+}
+
+.activePopUpImg {
+  width: 100%;
+  height: 500px;
+}
+
+.previousImage, .nextImage { line-height: 500px; }
+}
+@media screen and (min-width: 351px) and (max-width: 649px) {
+
+.container_img {
+  width: 100%;
+  height: 400px;
+}
+
+.con-ac-ar {
+  width: 100%;
+  height: 400px;
+}
+
+.activePopUpImg {
+  width: 100%;
+  height: 400px;
+}
+
+.previousImage, .nextImage { line-height: 400px; }
+}
+ @media screen and (max-width: 350px) {
+
+.container_img {
+  width: 100%;
+  height: 300px;
+}
+
+.con-ac-ar {
+  width: 100%;
+  height: 300px;
+}
+
+.activePopUpImg {
+  width: 100%;
+  height: 300px;
+}
+
+.previousImage, .nextImage { line-height: 300px; }
+}
+
+/*gallery css END=================*/
+.section-heading {
+    margin-bottom: 50px;
+}
