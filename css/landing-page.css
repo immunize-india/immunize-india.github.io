@@ -38,6 +38,12 @@ h6 {
     background: url(../img/intro-bg.jpg) no-repeat center center;
     /*background: url(https://drscdn.500px.org/photo/51893086/m%3D2048/7b0590a98b21b526ebcb6d85ca837973) no-repeat center center;*/
     /*background-size: cover;*/
+    
+            background: #3a3897;
+            background: -webkit-linear-gradient(left,#3a3897,#a3a1ff);
+            background: -moz-linear-gradient(left,#3a3897,#a3a1ff);
+            background: linear-gradient(left,#3a3897,#a3a1ff);
+            
 }
 
 .intro-message {
