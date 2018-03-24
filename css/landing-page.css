@@ -188,6 +188,7 @@ p.copyright {
     text-align: center;
 }
 .card [data-background-color=red] {
+    background: #ef5350;
     background: linear-gradient(60deg,#ef5350,#e53935);
     -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4) !important;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4) !important;
@@ -257,16 +258,19 @@ p.copyright {
     font-size: 16px;
 }
 .card [data-background-color=orange] {
+    background: #ffa726;
     background: linear-gradient(60deg,#ffa726,#fb8c00);
     -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4) !important;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4) !important;
 }
 .card [data-background-color=green] {
+    background: #66bb6a;
     background: linear-gradient(60deg,#66bb6a,#43a047);
     -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4) !important;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4) !important;
 }
 .card [data-background-color=blue] {
+    background: #26c6da;
     background: linear-gradient(60deg,#26c6da,#00acc1);
     -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4) !important;
     box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4) !important;
